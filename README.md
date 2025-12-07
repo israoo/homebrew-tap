@@ -1,8 +1,8 @@
-# Homebrew tap
+# Homebrew tap (Casks)
 
 ## Description
 
-This is a custom Homebrew formulae repository (Tap) that hosts command-line tools developed by **israoo**. Through this tap, you can easily install and keep CLI tools updated using Homebrew.
+This is a custom Homebrew Casks repository (Tap) that hosts command-line tools developed by **israoo**. Through this tap, you can easily install and keep CLI tools updated using Homebrew.
 
 ### Featured projects
 
@@ -23,7 +23,7 @@ brew tap israoo/tap
 Once the tap is added, you can install TerraX by running:
 
 ```bash
-brew install terrax
+brew install --cask terrax
 ```
 
 ## Usage
@@ -50,9 +50,9 @@ Or to update all formulae:
 brew upgrade
 ```
 
-## Available formulae
+## Available Casks
 
-| Formula | Description | License |
+| Cask    | Description | License |
 |---------|-------------|---------|
 | terrax  | The interactive TUI executor for Terragrunt stacks | Apache 2.0 |
 
