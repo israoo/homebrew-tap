@@ -14,22 +14,22 @@ cask "terrax" do
   on_macos do
     on_intel do
       url "https://github.com/israoo/terrax/releases/download/v#{version}/terrax_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "46f4410bc49f113fb8b405ed9b86a492120ba575342126a13437eccef8893fbd"
+      sha256 "d77b672a2440b6eefcff24eb1cb82a56dc59efc1bc03d3b453c9377cbaf1f67e"
     end
     on_arm do
       url "https://github.com/israoo/terrax/releases/download/v#{version}/terrax_#{version}_Darwin_arm64.tar.gz"
-      sha256 "febb0c96e6dd43cfbcc54c6297d3f6c9e13239886ee7e7be359d0f817ad107b4"
+      sha256 "e45926530537e45e38a064e0bd8582720461ed5533ac1f48fd3f494a1e124c10"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/israoo/terrax/releases/download/v#{version}/terrax_#{version}_Linux_x86_64.tar.gz"
-      sha256 "06dd39993f98d541be9631019ef1d1a36af33c2e5762bc35ad931fb9ff29d228"
+      sha256 "1bceb3a6d4f1177e01ae10874e8ccff7fc1f50c58eda3aeddf15a0211ca78064"
     end
     on_arm do
       url "https://github.com/israoo/terrax/releases/download/v#{version}/terrax_#{version}_Linux_arm64.tar.gz"
-      sha256 "c018ae29c8407e4854f6080b1101306ff2e2508282e49e8110ae0f846205bb80"
+      sha256 "abd14eadaa4752ec2b961b8392282662244b0b4314a179332f5b233f1d36b958"
     end
   end
 
