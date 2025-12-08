@@ -3,7 +3,7 @@ cask "terrax" do
   name "terrax"
   desc "The interactive TUI executor for Terragrunt stacks"
   homepage "https://github.com/israoo/terrax"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "terrax" do
   on_macos do
     on_intel do
       url "https://github.com/israoo/terrax/releases/download/v#{version}/terrax_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "d77b672a2440b6eefcff24eb1cb82a56dc59efc1bc03d3b453c9377cbaf1f67e"
+      sha256 "e499a18e00223b70ed3a270084e519b2bf6fda8748305b31ffce7cf22bdb4752"
     end
     on_arm do
       url "https://github.com/israoo/terrax/releases/download/v#{version}/terrax_#{version}_Darwin_arm64.tar.gz"
-      sha256 "e45926530537e45e38a064e0bd8582720461ed5533ac1f48fd3f494a1e124c10"
+      sha256 "e01e4d7a58cab811a4ffdc53fb4dd160becfd4b71016e39e597aa3dfaf7f525d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/israoo/terrax/releases/download/v#{version}/terrax_#{version}_Linux_x86_64.tar.gz"
-      sha256 "1bceb3a6d4f1177e01ae10874e8ccff7fc1f50c58eda3aeddf15a0211ca78064"
+      sha256 "b5846d25ea07bae2de6204cbab7166766bd97c3bd2127a7ee0d5304433b7ef62"
     end
     on_arm do
       url "https://github.com/israoo/terrax/releases/download/v#{version}/terrax_#{version}_Linux_arm64.tar.gz"
-      sha256 "abd14eadaa4752ec2b961b8392282662244b0b4314a179332f5b233f1d36b958"
+      sha256 "b5898da7c52025a27651bcd30a72973914cd74820a20fae3b5e8a18596c91d87"
     end
   end
 
